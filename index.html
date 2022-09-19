@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hospital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body onload="mostrarHora()">
+    <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="medicos.html">Gestión de médicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pacientes.html">Gestión de pacientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="citas.html">Gestión de citas médicas</a>
+            </li>
+            <span id="reloj" style="background-color:rgb(23, 221, 128) ;">
+            </span>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-center">Bienvenido al sistema de Gestión de citas médicas</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Médicos</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="medicos.html" class="btn btn-primary">Ir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Pacientes</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="pacientes.html" class="btn btn-primary">Ir</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/medicos.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/sala.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/walter.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <footer class="bg-success text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">Médico</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="hora.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
